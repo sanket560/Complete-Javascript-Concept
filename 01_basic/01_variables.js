@@ -12,4 +12,5 @@ accountcity = "mumbai"
 // never to use var bcz of variable scope and function scope
 
 console.log(accountid);
+//console multiple things in one go
 console.table([accountid,accountemail,accountpassword,accountcity,accountstate])

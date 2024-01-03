@@ -6,7 +6,7 @@
 // const myHero = ["shaktiman" , "naagraj"]
 // const newArr = new Array(1,2,3,4)
 
-// ++++++++++++++++array methods+++++++++++++++++++++++++
+// ++++++++++++++++ array methods +++++++++++++++++++++++++
 const myarr = [0,11,23,54,15,34,76]
 // myarr.push(100)//push element at end
 // myarr.pop()//remove last element

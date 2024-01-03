@@ -22,5 +22,6 @@ const jsUser = {
 // console.log(jsUser);
 
 jsUser.greeting = function(){
-    console.log("hello js user");
+    console.log(`hello js user ${this.name}`);
 }
+console.log(jsUser.greeting());

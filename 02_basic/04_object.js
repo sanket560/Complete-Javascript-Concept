@@ -31,5 +31,19 @@ const obj2 = {
 // using assign 
 // const obj3 = Object.assign(obj1,obj2)
 //using spread
-const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// const obj3 = {...obj1,...obj2}
+// console.log(obj3);
+
+//+++++++++++++++++  object destructuring ++++++++++++++++++
+const course = {
+    coursename: "js in hindi",
+    price:"999",
+    courseInstructor:"sanket"
+}
+
+const {coursename : name} = course
+// console.log(name);
+
+// ********** API JSON *****************
+
+

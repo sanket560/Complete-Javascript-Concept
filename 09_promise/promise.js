@@ -84,7 +84,6 @@
 //         console.log(error);
 //     }
 // }
-
 // getUserData()
 
 fetch('https://jsonplaceholder.typicode.com/users')

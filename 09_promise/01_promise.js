@@ -53,13 +53,3 @@ promiseFour.then((user)=>{
     console.log("the promise is either resolved or rejected");
 })
 
-const promiseFive = new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        let error = true
-        if (!error) {
-            resolve({username:"javascript",password:123})
-        }else{
-            reject('error: js went wrong')
-        }
-    }, 1000);
-})

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>api request</h1>
+
+<script>
+    const requestURL = 'https://api.github.com/users/sanket560'
+   const XHR = new XMLHttpRequest()
+   XHR.open('GET',requestURL)
+   XHR.onreadystatechange = function (){
+    console.log(XHR.readyState);
+    if (XHR.readyState === 4) {
+        const data =JSON.parse(this.responseText)
+        //console.log(data);
+        console.log(data.url);
+    }
+   }
+   XHR.send();
+</script>
+</body>
+</html>

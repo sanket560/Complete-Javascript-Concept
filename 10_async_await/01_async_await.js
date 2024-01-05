@@ -1,3 +1,14 @@
+const promiseFive = new Promise((resolve,reject)=>{
+    setTimeout(() => {
+        let error = true
+        if (!error) {
+            resolve({username:"javascript",password:123})
+        }else{
+            reject('error: js went wrong')
+        }
+    }, 1000);
+})
+
 async function consumePromiseFive(){
     try{
         const response = await promiseFive

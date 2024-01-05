@@ -27,7 +27,33 @@ Welcome to my JavaScript repository! Here's a quick overview of the contents:
 
 4. [Control Flow](04_control_flow) : 
 
-   - [function](03_basic/01_function.js) : Explains JavaScript functions and their usage.
-   - [scope](03_basic/01_scope.js) : Covers the concept of scope in JavaScript.
-   - [arrowFunction](03_basic/03_arrowFunction.js) : Introduces arrow functions in JavaScript.
-   - [IIFE](03_basic/04_IIFE.js) : Demonstrates Immediately Invoked Function Expressions (IIFE) in JavaScript.
+    - [if else](04_control_flow/01_if_else.js) : Covers the usage of if-else statements in JavaScript.
+    - [switch](04_control_flow/02_switch.js) : Explains the switch statement in JavaScript.
+    - [truthy](04_control_flow/03_truthy.js) : Discusses truthy values in JavaScript.
+
+5. [loops](05_loops) : 
+
+   - [for](05_loops/01_for.js) : Explanation of the traditional for loop in JavaScript.
+   - [while do while](05_loops/02_while_do_while.js) : Covers the while and do-while loops in JavaScript.
+   - [for of](05_loops/03_for_of.js) : Demonstrates the for...of loop for iterating over iterable objects.
+   - [for in](05_loops/04_for_in.js) : Explains the for...in loop for iterating over object properties.
+   - [for Each](05_loops/05_for_Each.js) : Introduction to the forEach method for arrays in JavaScript.
+   - [filter](05_loops/06_filter.js) : Explanation and usage of the filter method for arrays in JavaScript.
+
+6. [project](06_project) : 
+   - [bgColorChanger](06_project/01_bgColorChanger/main.js): A project for changing background color dynamically.
+   - [guessNumber](06_project/02_guessNumber/main.js): A project related to guessing a number.
+
+7. [async](07_async) : 
+   - [setTimeout](07_async/01_setTimeout.html): HTML file demonstrating the usage of `setTimeout` in JavaScript.
+   - [setInterval](07_async/02_setInterval.html): HTML file illustrating the usage of `setInterval` in JavaScript.
+
+8. [async](08_API) : 
+   - [ApiRequest](08_API/ApiRequest.html): HTML file demonstrating API requests in JavaScript.
+
+9. [promise](09_promise) : 
+   - [promise](09_promise/01_promise.js): Explanation and usage of Promises in JavaScript.
+   - [fetch](09_promise/02_fetch.js): Demonstrates the Fetch API for making HTTP requests in JavaScript.
+
+10. [async await](10_async_await) :
+   - [async await](10_async_await/01_async_await.js): Explanation and usage of async/await in JavaScript.
